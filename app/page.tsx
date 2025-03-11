@@ -13,7 +13,7 @@ export default function Home() {
       <header className="py-6 bg-white shadow-sm">
         <div className="container mx-auto px-4 flex items-center justify-between">
           <img
-            src="https://cdn-nexlink.s3.us-east-2.amazonaws.com/rsm-international-vector-logo_2_eb7fb9d1-228a-426a-b682-c0d24dc736fa.jpg"
+            src="https://cdn-nexlink.s3.us-east-2.amazonaws.com/logo@2x_06d7fbfa-3c0b-4a7b-91a1-108d58c5a5f4.webp"
             alt="RSM Saudi Logo"
             className="h-14 w-auto"
           />
