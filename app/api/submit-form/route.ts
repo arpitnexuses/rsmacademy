@@ -72,7 +72,7 @@ export async function POST(request: Request) {
     <body>
       <div class="container">
         <div class="header">
-          <img src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/MARS/logo@2x%20(2).webp" alt="RSM Logo" class="logo" />
+          <img src="https://cdn-nexlink.s3.us-east-2.amazonaws.com/logo@2x_3b9854c2-8947-469c-a45b-6b82a085e016.png" alt="RSM Logo" class="logo" />
           <h1>New Training Needs Assessment Request</h1>
         </div>
         <div class="content">
