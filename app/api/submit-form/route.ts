@@ -134,7 +134,7 @@ export async function POST(request: Request) {
           background-color: #ffffff;
         }
         .header {
-          background-color: #15803d;
+          background-color: #7C7C7C;
           color: white;
           padding: 20px;
           text-align: center;
@@ -181,7 +181,7 @@ export async function POST(request: Request) {
       <div class="container">
         <div class="header">
           <img src="https://cdn-nexlink.s3.us-east-2.amazonaws.com/rsm-international-vector-logo_2_eb7fb9d1-228a-426a-b682-c0d24dc736fa.jpg" alt="RSM Logo" class="logo" />
-          <h1>Thank You for Your Interest in RSM Training</h1>
+          <h1>Thank You for Your Interest in RSM Saudi Arabia Professional Acdemy</h1>
         </div>
         <div class="content">
           <div class="thank-you">
@@ -193,7 +193,7 @@ export async function POST(request: Request) {
             <h3>What's Next?</h3>
             <ul>
               <li>Our team will review your submission within 24-48 business hours</li>
-              <li>A dedicated RSM consultant will contact you to schedule your complimentary assessment</li>
+              <li>A dedicated RSM Saudi Arabia Professional Acdemy consultant will contact you to schedule your complimentary assessment</li>
               <li>We'll prepare a customized training needs analysis based on your organization's requirements</li>
             </ul>
           </div>
@@ -229,7 +229,7 @@ export async function POST(request: Request) {
     await transporter.sendMail({
       from: process.env.SMTP_USER,
       to: formData.email,
-      subject: "Thank You for Your Interest in RSM Training",
+      subject: "Thank You for Your Interest in RSM Saudi Arabia Professional Acdemy",
       html: userThankYouEmail,
     })
 
