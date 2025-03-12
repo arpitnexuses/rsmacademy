@@ -134,11 +134,12 @@ export async function POST(request: Request) {
           background-color: #ffffff;
         }
         .header {
-          background-color: #7C7C7C;
-          color: white;
+          background-color: #FFFFFF;
           padding: 20px;
           text-align: center;
           border-radius: 8px 8px 0 0;
+          border: 2px solid #878B8D;
+          color: #878B8D;
         }
         .content {
           padding: 20px;
@@ -166,8 +167,16 @@ export async function POST(request: Request) {
           color: #64748b;
         }
         .logo {
-          max-width: 200px;
-          margin-bottom: 15px;
+          max-width: 150px;
+          margin-bottom: 25px;
+          float: right;
+          display: block;
+          margin-left: auto;
+        }
+        .header h1 {
+          clear: both;
+          padding-top: 20px;
+          font-size: 22px;
         }
         .summary {
           background: #f8fafc;
