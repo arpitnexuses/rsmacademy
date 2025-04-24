@@ -49,7 +49,7 @@ export default function Navbar() {
               className="flex items-center h-full"
             >
               <img
-                src="/rsm-saudi-tech-logo.png"
+                src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/RSM%20Academy%20Landing%20Page/image%2040.png"
                 alt="RSM Saudi Tech Logo"
                 className="h-16 w-auto object-contain"
               />
@@ -278,4 +278,4 @@ export default function Navbar() {
       </div>
     </motion.header>
   )
-}
+} 
